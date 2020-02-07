@@ -30,5 +30,9 @@ describe 'As a visitor' do
     it 'I can see the average years of experience for the contestants on this project' do
       expect(page).to have_content('Average years of experience; 7')
     end
+
+    # it 'I call fill out a form to add a contestant to this project' do
+    #   expect(page).to have
+    # end
   end
 end
