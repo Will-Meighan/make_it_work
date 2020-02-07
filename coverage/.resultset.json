@@ -242,6 +242,8 @@
         "lines": [
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -393,12 +395,12 @@
           null
         ]
       },
-      "/Users/williammeighan/turing/2module/classwork/make_it_work/app/controllers/projects_controller.rb": {
+      "/Users/williammeighan/turing/2module/classwork/make_it_work/app/controllers/contestants_controller.rb": {
         "lines": [
           1,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null
@@ -409,8 +411,19 @@
           1,
           null
         ]
+      },
+      "/Users/williammeighan/turing/2module/classwork/make_it_work/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1581095885
+    "timestamp": 1581096206
   }
 }

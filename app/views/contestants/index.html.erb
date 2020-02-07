@@ -1,0 +1,8 @@
+<h1> All Contestants </h1>
+
+<% @contestants.each do |contestant| %>
+  <h2> <%= contestant.name %> </h2>
+  <p> Age: <%= contestant.age %> </p>
+  <p> Hometown: <%= contestant.hometown %> </p>
+  <p> Years of experience: <%= contestant.years_of_experience %> </p>
+<% end %>
