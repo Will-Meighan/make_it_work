@@ -251,6 +251,32 @@
           null
         ]
       },
+      "/Users/williammeighan/turing/2module/classwork/make_it_work/spec/features/projects/user_can_view_project_show_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/williammeighan/turing/2module/classwork/make_it_work/spec/models/challenge_spec.rb": {
         "lines": [
           1,
@@ -385,6 +411,6 @@
         ]
       }
     },
-    "timestamp": 1581094352
+    "timestamp": 1581095885
   }
 }
