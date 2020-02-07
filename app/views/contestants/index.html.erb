@@ -1,8 +1,13 @@
 <h1> All Contestants </h1>
 
 <% @contestants.each do |contestant| %>
-  <h2> <%= contestant.name %> </h2>
-  <p> Age: <%= contestant.age %> </p>
-  <p> Hometown: <%= contestant.hometown %> </p>
-  <p> Years of experience: <%= contestant.years_of_experience %> </p>
+  <section id= 'contestant-<%= contestant.id %>'>
+    <h2> <%= contestant.name %> </h2>
+    <p> Age: <%= contestant.age %> </p>
+    <p> Hometown: <%= contestant.hometown %> </p>
+    <p> Years of experience: <%= contestant.years_of_experience %> </p>
+    <% contestant.projects.each do |project| %>
+      <p> Projects: <%= project.name %> </p>
+    <% end %>
+  </section>
 <% end %>
