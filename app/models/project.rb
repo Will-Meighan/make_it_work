@@ -9,4 +9,11 @@ class Project <ApplicationRecord
   def contestant_count
     contestants.count
   end
+
+  def average_years_of_experience
+    total_years_of_experience = contestants.sum do |contestant|
+      contestant.years_of_experience
+    end
+    total_years_of_experience / contestant_count
+  end
 end
