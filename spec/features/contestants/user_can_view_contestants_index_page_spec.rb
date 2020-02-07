@@ -26,5 +26,15 @@ describe 'As a visitor' do
       expect(page).to have_content(@contestant_2.hometown)
       expect(page).to have_content(@contestant_2.years_of_experience)
     end
+
+    it 'I can see a list of each project the contestant has been on' do
+      within("#contestant-#{@contestant_1.id}") do
+        expect(page).to have_content(@project_1.name)
+      end
+
+      within("#contestant-#{@contestant_2.id}") do
+        expect(page).to have_content(@project_2.name)
+      end
+    end
   end
 end
